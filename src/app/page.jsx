@@ -1,6 +1,6 @@
 import BtnConfiguration from "@/Components - Btns/BtnConfiguration";
 import { BtnNavBlock } from "@/Components - Btns/NavBlock/BtnNavBlock";
-import { BtnBelow, BtnUnder } from "@/Components - Btns/SAA_Btns/Btns/Btns";
+import { BtnBelow, BtnOver } from "@/Components - Btns/SAA_Btns/Btns/Btns";
 import Search_Filtro from "@/Components - Btns/SAA_Filtro/Search_Filtro";
 import Select_Asunto from "@/Components - Btns/SAA_Selects/Select_Asunto";
 import Select_Criterio from "@/Components - Btns/SAA_Selects/Select_Criterio";
@@ -32,7 +32,7 @@ export default function Home() {
           </div>
 
           <div className="flex gap-2 py-5 px-5">
-            <BtnUnder/>
+            <BtnOver/>
           </div>
 
           <div className="flex justify-around px-1 gap-10 w-[100%] mb-5">
@@ -48,7 +48,7 @@ export default function Home() {
           </div>
 
           <div>
-            
+
           </div>
 
         </div>
