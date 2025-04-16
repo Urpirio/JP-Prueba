@@ -3,9 +3,9 @@ import { IoMdArrowDropdown } from "react-icons/io";
 
 export default function BtnConfiguration() {
   return (
-    <button className="flex items-center border-1 p-1 rounded-md">
+    <button className="flex items-center border-1 py-0.5 px-1 rounded-xs bg-[#7A838A] text-white">
         <IoMdSettings/>
-        <span>Configuracion</span>
+        <span className="mb-1">Configuracion</span>
         <IoMdArrowDropdown/>
     </button>
   )
