@@ -14,7 +14,7 @@ export default function layout({children}) {
     </head>
     <body className="flex">
       <Aside/>
-      <main className="w-[80%] overflow-hidden">
+      <main className="w-[80%] h-screen overflow-y-scroll ">
         <Header/>
         {children}
         <Footer/>
