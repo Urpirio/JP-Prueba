@@ -1,6 +1,7 @@
 import BtnConfiguration from "@/Components - Btns/BtnConfiguration";
 import { BtnNavBlock } from "@/Components - Btns/NavBlock/BtnNavBlock";
 import { BtnBelow, BtnOver } from "@/Components - Btns/SAA_Btns/Btns/Btns";
+import { BtnBack, BtnNext } from "@/Components - Btns/SAA_Btns/Btns/BtnsNav";
 import Search_Filtro from "@/Components - Btns/SAA_Filtro/Search_Filtro";
 import Select_Asunto from "@/Components - Btns/SAA_Selects/Select_Asunto";
 import Select_Criterio from "@/Components - Btns/SAA_Selects/Select_Criterio";
@@ -58,6 +59,11 @@ export default function Home() {
 
           <div className="flex justify-center p-5">
             <Table/>
+          </div>
+          <div className="flex justify-start p-5">
+            <BtnBack/>
+            <BtnNext/>
+           
           </div>
 
         </div>
