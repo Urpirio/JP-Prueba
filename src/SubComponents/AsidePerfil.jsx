@@ -3,9 +3,9 @@ import PhotoPerfil from '@/../public/Perfil/PerfilPhoto.png';
 
 export default function AsidePerfil() {
   return (
-    <section className="flex flex-col items-center">
-        <div className="border-1 rounded-[100%] ">
-            <Image className="h-30 w-30 rounded-[100%] object-contain" src={PhotoPerfil} alt="Img Perfil"/>
+    <section className="flex flex-col items-center py-2">
+        <div className="rounded-[100%] ">
+            <Image className="h-20 w-20 rounded-[100%] object-contain" src={PhotoPerfil} alt="Img Perfil"/>
         </div>
         <div className="
         flex
