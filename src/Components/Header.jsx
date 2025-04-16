@@ -5,7 +5,7 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 
 export default function Header() {
   return (
-    <header className="flex bg-[#E9ECEF] border-b-1 sticky top-0 border-gray-300 justify-between p-1">
+    <header className="flex bg-[#E9ECEF] border-b-1 sticky top-0 z-30 border-gray-300 justify-between p-1">
         <div>
             <Image className="h-10 w-50 object-contain" src={LogoHeader} alt="Logo Header"/>
         </div>
